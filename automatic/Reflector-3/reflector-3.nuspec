@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Reflector-3</id>
-    <version>3.2.0</version>
+    <version>1.0</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
     <owners>Darin Theurer</owners>
     <title>Reflector 3</title>
