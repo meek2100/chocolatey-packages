@@ -18,6 +18,7 @@
     <docsUrl>https://help.webex.com/</docsUrl>
     <licenseUrl>https://www.webex.com/pricing/index.html</licenseUrl>
     <bugTrackerUrl>https://help.webex.com/contact</bugTrackerUrl>
+	<releaseNotes>https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/products-release-notes-list.html</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

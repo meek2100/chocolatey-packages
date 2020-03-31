@@ -18,6 +18,7 @@
     <docsUrl>https://help.reflectorapp.com/support/home</docsUrl>
     <licenseUrl>https://www.airsquirrels.com/reflector/try</licenseUrl>
     <bugTrackerUrl>https://help.reflectorapp.com/support/tickets/new</bugTrackerUrl>
+	<releaseNotes>https://www.airsquirrels.com/reflector/release-notes/windows</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

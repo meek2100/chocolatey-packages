@@ -18,6 +18,7 @@
     <docsUrl>https://phw198.github.io/OutlookGoogleCalendarSync/guide/index.html</docsUrl>
     <licenseUrl>https://github.com/phw198/OutlookGoogleCalendarSync/blob/master/license.md</licenseUrl>
     <bugTrackerUrl>https://github.com/phw198/OutlookGoogleCalendarSync/wiki/Reporting-Problems</bugTrackerUrl>
+	<releaseNotes>https://github.com/phw198/OutlookGoogleCalendarSync/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

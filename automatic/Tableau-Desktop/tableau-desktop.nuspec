@@ -18,6 +18,7 @@
     <docsUrl>https://www.tableau.com/support/desktop</docsUrl>
     <licenseUrl>https://www.tableau.com/pricing</licenseUrl>
     <bugTrackerUrl>https://www.tableau.com/support/case</bugTrackerUrl>
+	<releaseNotes>https://www.tableau.com/support/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

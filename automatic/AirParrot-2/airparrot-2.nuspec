@@ -18,6 +18,7 @@
     <docsUrl>https://help.airsquirrels.com/support/solutions/1000124986</docsUrl>
     <licenseUrl>https://store.airsquirrels.com/#buy-airparrot</licenseUrl>
     <bugTrackerUrl>https://help.airsquirrels.com/support/tickets/new</bugTrackerUrl>
+	<releaseNotes>https://www.airsquirrels.com/airparrot/release-notes/win</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
