@@ -7,7 +7,7 @@ $packageArgs = @{
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType       = 'exe'
   url            = $url
-  silentArgs     = '/quiet /norestart'
+  silentArgs     = '/quiet /norestart ACCEPTEULA=1'
   validExitCodes = @(0)
   softwareName   = 'tableau-desktop*'
   checksum       = $checksum
