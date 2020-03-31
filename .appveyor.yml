@@ -26,10 +26,10 @@ environment:
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: oIwt1S2HEG+21kJvX/ReYcSVeYqveJucLttKBIyNou8= #https://ci.appveyor.com/tools/encrypt
+    secure: 7MYT0eX74jWVNE538D+HJB7inbVyOnQ0ywFCU9YkXSw= #https://ci.appveyor.com/tools/encrypt
   mail_pass:
-    secure: eJhw0Uyq3seDCL7tXbSa8A== #https://ci.appveyor.com/tools/encrypt
-  mail_server: luna.fibercomet.com
+    secure: mb+b7sX6rp6STsKs8abUCA== #https://ci.appveyor.com/tools/encrypt
+  mail_server: smtp-mail.outlook.com
   mail_port: 465
   mail_enablessl: true
 
