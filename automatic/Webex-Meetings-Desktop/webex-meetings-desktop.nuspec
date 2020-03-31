@@ -6,7 +6,7 @@
     <version>39.7.7.27</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
     <owners>Darin Theurer</owners>
-    <title>Cisco Webex Meetings Desktop App</title>
+    <title>Webex Meetings Desktop</title>
     <authors>Cisco Systems, Inc.</authors>
     <projectUrl>https://www.webex.com/</projectUrl>
     <copyright>© 2020 Cisco and/or its affiliates. All rights reserved.</copyright>
