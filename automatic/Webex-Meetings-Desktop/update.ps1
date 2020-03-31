@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
-$download_page_url = 'https://cisco.webex.com/webappng/sites/cisco/dashboard/download'
+$download_page_url = 'https://control4.webex.com/webappng/sites/control4/dashboard/download'
 $url_part1 = 'https://akamaicdn.webex.com/client/'
 $url_part2 = '/webexapp.msi'
 
