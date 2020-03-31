@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>webex-meetings-desktop</id>
+    <version>39.7.7.27</version>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <owners>Darin Theurer</owners>
+    <title>Cisco Webex Meetings Desktop App</title>
+    <authors>Cisco Systems, Inc.</authors>
+    <projectUrl>https://www.webex.com/</projectUrl>
+    <copyright>© 2020 Cisco and/or its affiliates. All rights reserved.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>cisco webex meetings desktop real time video conferencing</tags>
+    <description>Cisco Webex is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars. Web conferencing, cloud calling and equipment.</description>
+    <summary>Cisco Webex is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars. Web conferencing, cloud calling and equipment.</summary>
+    <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/webex.png</iconUrl>
+    <docsUrl>https://help.webex.com/</docsUrl>
+    <licenseUrl>https://www.webex.com/pricing/index.html</licenseUrl>
+    <bugTrackerUrl>https://help.webex.com/contact</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
