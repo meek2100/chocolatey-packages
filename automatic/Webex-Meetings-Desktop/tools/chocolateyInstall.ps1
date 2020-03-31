@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '9c2d9c58ce7fa49e1fa5aca50661b192dcc9595eabd15a92fc6e3be8e9124783'
-$url = 'https://akamaicdn.webex.com/client/WBXclient-40.2.10-14/webexapp.msi'
+$checksum = 'e169fe8a22616b0588e05bcbbc0d7abd612cd1ae120b4c1c6b22fece0899a815'
+$url = 'https://akamaicdn.webex.com/client/WBXclient-39.7.7-27/webexapp.msi'
 
 $packageArgs = @{
   packageName    = 'webex-meetings-desktop'
