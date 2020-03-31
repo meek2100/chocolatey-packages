@@ -26,9 +26,9 @@ environment:
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: PipE9d9HMHidRWuHZRkFJII1p3FlZMUraPsYgkXYh8Y= #https://ci.appveyor.com/tools/encrypt
+    secure: #https://ci.appveyor.com/tools/encrypt
   mail_pass:
-    secure: yWENlb17jO09MeXL0ye7Pw== #https://ci.appveyor.com/tools/encrypt
+    secure: #https://ci.appveyor.com/tools/encrypt
   mail_server: smtp.gmail.com
   mail_port: 587
   mail_enablessl: true
