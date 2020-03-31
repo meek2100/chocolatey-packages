@@ -2,7 +2,7 @@
 import-module au
 
 $download_page_url = 'https://www.airsquirrels.com/airparrot/release-notes/win'
-$url_part1 = 'http://download.airsquirrels.com/AirParrot2/Windows/AirParrot'
+$url_part1 = 'https://download.airsquirrels.com/AirParrot2/Windows/AirParrot'
 $url_part2 = '-64.msi'
 
 function global:au_SearchReplace {
