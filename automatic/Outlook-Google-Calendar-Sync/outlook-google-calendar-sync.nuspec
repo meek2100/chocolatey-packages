@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>outlook-google-calendar-sync</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <owners>Darin Theurer</owners>
+    <title>Outlook Google Calendar Sync</title>
+    <authors>Paul Woolcock</authors>
+    <projectUrl>https://phw198.github.io/OutlookGoogleCalendarSync/</projectUrl>
+    <copyright>© Copyright 2020 Paul Woolcock</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>Outlook Google Calendar Sync 2-way Two-way Bidirection</tags>
+    <description>Outlook Google Calendar Sync offers calendar synchronisation between Outlook and Google, including attendees and reminders.</description>
+    <summary>Outlook Google Calendar Sync offers calendar synchronisation between Outlook and Google, including attendees and reminders.</summary>
+    <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/outlook-google-calendar-sync.png</iconUrl>
+    <docsUrl>https://phw198.github.io/OutlookGoogleCalendarSync/guide/index.html</docsUrl>
+    <licenseUrl>https://github.com/phw198/OutlookGoogleCalendarSync/blob/master/license.md</licenseUrl>
+    <bugTrackerUrl>https://github.com/phw198/OutlookGoogleCalendarSync/wiki/Reporting-Problems</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
