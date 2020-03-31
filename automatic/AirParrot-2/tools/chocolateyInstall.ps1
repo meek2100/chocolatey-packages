@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = 'e169fe8a22616b0588e05bcbbc0d7abd612cd1ae120b4c1c6b22fece0899a815'
-$url = 'https://akamaicdn.webex.com/client/WBXclient-39.7.7-27/webexapp.msi'
+$checksum = '13c785ec471db1a83e8056869a16cd7a38b36159e88e2770718753d19d994bab'
+$url = 'http://download.airsquirrels.com/AirParrot2/Windows/AirParrot2.7.5-64.msi'
 
 $packageArgs = @{
   packageName    = 'airparrot-2'
