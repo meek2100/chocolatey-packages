@@ -1,15 +1,15 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '13c785ec471db1a83e8056869a16cd7a38b36159e88e2770718753d19d994bab'
-$url = 'http://download.airsquirrels.com/AirParrot2/Windows/AirParrot2.7.5-64.msi'
+$checksum = '9ee6ec4aa7a47e93bc4310cceba220cd2c082368178d105ba1ec7cef7881d180'
+$url = 'https://download.airsquirrels.com/Reflector3/Windows/Reflector3.2.0-64.msi'
 
 $packageArgs = @{
-  packageName    = 'airparrot-2'
+  packageName    = 'reflector-3'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType       = 'msi'
   url            = $url
   silentArgs     = '/quiet /norestart'
   validExitCodes = @(0)
-  softwareName   = 'airparrot-2*'
+  softwareName   = 'reflector-3*'
   checksum       = $checksum
   checksumType   = 'sha256'
 }
