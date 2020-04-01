@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Reflector-3</id>
-    <version>3.2.0</version>
+    <version>0.2.0</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
     <owners>Darin Theurer</owners>
     <title>Reflector 3</title>
@@ -19,6 +19,9 @@
     <licenseUrl>https://www.airsquirrels.com/reflector/try</licenseUrl>
     <bugTrackerUrl>https://help.reflectorapp.com/support/tickets/new</bugTrackerUrl>
 	<releaseNotes>https://www.airsquirrels.com/reflector/release-notes/windows</releaseNotes>
+	<dependencies>
+      <dependency id="dotnetfx" version="4.7.2.20180712" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
