@@ -19,9 +19,14 @@ function global:au_GetLatest {
 
      # Get Version
     $homepage_content -match '\/\d{4}\.\d{0,2}[.0-9]{0,2}'| Out-Null
-    $version = $matches[0] -replace "/", ""
+    $real_version = $matches[0] -replace "/", ""
+	if ($real_version -match '\d{4}\.\d{0,2}\.\d{1,2}') {
+		$version = $real_version
+		}  Else {
+		$version = $real_version + ".0"
+		}
 	$url_version = $version -replace "\.", "-"
-    $url = $url_part1 + $url_version + $url_part2
+	$url = $url_part1 + $url_version + $url_part2
     
 
     $Latest = @{ URL = $url; Version = $version }
