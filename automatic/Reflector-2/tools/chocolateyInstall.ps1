@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '4bf4e01d45437e0971157cda4417d99583d544dcc77a7082ff49bd0b6ef56a61'
-$url = 'https://download.airsquirrels.com/Reflector3/Windows/Reflector3.2.0-32.msi'
-$checksum64 = '9ee6ec4aa7a47e93bc4310cceba220cd2c082368178d105ba1ec7cef7881d180'
-$url64 = 'https://download.airsquirrels.com/Reflector3/Windows/Reflector3.2.0-64.msi'
+$checksum = 'a45964a4b491f1f2b31579ffbe9dbd30267eb1c7ee72e20f1b84d226f87f26ac'
+$url = 'https://download.airsquirrels.com/Reflector2/Windows/Reflector-2.7.5-32.msi'
+$checksum64 = 'a48e8c17ea949143951abb247baeb45345eafeb76032c66c3893308bf163aa73'
+$url64 = 'https://download.airsquirrels.com/Reflector2/Windows/Reflector-2.7.5-64.msi'
 
 $packageArgs = @{
   packageName    = 'reflector-2'
