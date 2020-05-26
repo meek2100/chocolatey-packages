@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>AirParrot-3</id>
+    <version>2.7.5</version>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <owners>Darin Theurer</owners>
+    <title>AirParrot 3</title>
+    <authors>Squirrels, LLC.</authors>
+    <projectUrl>https://www.airsquirrels.com/</projectUrl>
+    <copyright>Copyright © 2020. Squirrels, LLC. All rights reserved.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>airparrot airparrot3 screen mirroring streaming</tags>
+    <description>Share wirelessly with everyone in the room without the need for cables and adapters. AirParrot gives anyone the ability to share and engage the classroom, boardroom or beyond. Focus on what matters most and send content from any device to a receiver connected to a television or projector. Our patent-pending Quick Connect technology and Bluetooth discovery allows you to quickly discover and connect to devices, even when network configurations prevent it.</description>
+    <summary>Wirelessly mirror your screen or stream media files to a variety of receivers. AirParrot quickly finds available media receivers on your network and uses quick connect to connect directly to any device running Reflector 3. Easily mirror your screen, extend your desktop or stream files to share videos, audio, presentations and much more!</summary>
+    <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/airparrot3.png</iconUrl>
+    <docsUrl>https://help.airparrot.com/support/solutions/11000004172</docsUrl>
+    <licenseUrl>https://store.airsquirrels.com/#buy-airparrot</licenseUrl>
+    <bugTrackerUrl>https://help.airsquirrels.com/support/tickets/new</bugTrackerUrl>
+	<releaseNotes>https://www.airsquirrels.com/airparrot/release-notes/win</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
