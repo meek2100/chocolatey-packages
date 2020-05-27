@@ -19,9 +19,6 @@
     <licenseUrl>https://www.airsquirrels.com/reflector/try</licenseUrl>
     <bugTrackerUrl>https://help.reflectorapp.com/support/tickets/new</bugTrackerUrl>
 	<releaseNotes>https://www.airsquirrels.com/reflector/release-notes/windows</releaseNotes>
-	<dependencies>
-      <dependency id="dotnetfx" version="4.7.2.20180712" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

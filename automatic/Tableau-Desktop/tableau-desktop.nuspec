@@ -19,9 +19,6 @@
     <licenseUrl>https://www.tableau.com/pricing</licenseUrl>
     <bugTrackerUrl>https://www.tableau.com/support/case</bugTrackerUrl>
 	<releaseNotes>https://www.tableau.com/support/releases</releaseNotes>
-	<dependencies>
-      <dependency id="dotnetfx" version="4.7.2.20180712" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
