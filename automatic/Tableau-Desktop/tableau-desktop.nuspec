@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Tableau-Desktop</id>
-    <version>2020.2.0</version>
+    <version>2020.1.0</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
     <owners>Darin Theurer</owners>
     <title>Tableau Desktop</title>
@@ -19,6 +19,9 @@
     <licenseUrl>https://www.tableau.com/pricing</licenseUrl>
     <bugTrackerUrl>https://www.tableau.com/support/case</bugTrackerUrl>
 	<releaseNotes>https://www.tableau.com/support/releases</releaseNotes>
+	<dependencies>
+      <dependency id="dotnetfx" version="4.7.2.20180712" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
