@@ -9,7 +9,7 @@ $packageArgs = @{
   url            = $url
   silentArgs     = '/quiet /norestart ACCEPTEULA=1'
   validExitCodes = @(0)
-  softwareName   = 'tableau-desktop*'
+  softwareName   = 'Tableau*'
   checksum       = $checksum
   checksumType   = 'sha256'
 }
