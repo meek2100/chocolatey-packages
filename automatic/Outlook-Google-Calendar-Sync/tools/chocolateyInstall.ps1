@@ -9,7 +9,7 @@ $packageArgs = @{
   url            = $url
   silentArgs     = '/quiet /norestart'
   validExitCodes = @(0)
-  softwareName   = 'outlook-google-calendar-sync*'
+  softwareName   = 'Outlook Google Calendar Sync*'
   checksum       = $checksum
   checksumType   = 'sha256'
 }

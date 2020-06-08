@@ -5,14 +5,14 @@ $checksum64 = 'a48e8c17ea949143951abb247baeb45345eafeb76032c66c3893308bf163aa73'
 $url64 = 'https://download.airsquirrels.com/Reflector2/Windows/Reflector-2.7.5-64.msi'
 
 $packageArgs = @{
-  packageName    = 'reflector-2'
+  packageName    = 'Reflector-2'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType       = 'msi'
   url            = $url
   url64bit       = $url64
   silentArgs     = '/quiet /norestart'
   validExitCodes = @(0)
-  softwareName   = 'reflector-2*'
+  softwareName   = 'Reflector 2*'
   checksum       = $checksum
   checksumType   = 'sha256'
   checksum64     = $checksum64
