@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-$checksum = '6537ff078425dbab04278a1c3bbc457abc78c27c895f1b5d88b04f49f2fbfa52'
+$checksum = '514ec454775a243162fd7126618000b4f65bec13b55bf4781b19c7c4699c63d7'
 $url = 'https://www.apachefriends.org/xampp-files/7.4.6/xampp-windows-x64-7.4.6-0-VC15-installer.exe'
 
 $packageArgs = @{
