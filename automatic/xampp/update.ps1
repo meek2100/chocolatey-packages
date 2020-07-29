@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
-$download_page_url = 'https://www.apachefriends.org/blog.html'
+$download_page_url = 'http://www.apachefriends.org/blog.html'
 $url_part1 = 'https://www.apachefriends.org/xampp-files/'
 $url_part2 = '/xampp-windows-x64-'
 $url_part3 = '-VC15-installer.exe'
