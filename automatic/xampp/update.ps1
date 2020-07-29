@@ -16,7 +16,9 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls, [Net.SecurityProtocolType]::Tls11, [Net.SecurityProtocolType]::Tls12, [Net.SecurityProtocolType]::Ssl3
+	[Net.ServicePointManager]::SecurityProtocol = "Tls, Tls11, Tls12, Ssl3"
+	$homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url
 
      # Get Version
     $homepage_content -match '\d{1}\.4\.\d{1,2}\-0'| Out-Null
