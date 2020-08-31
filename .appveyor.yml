@@ -26,10 +26,10 @@ environment:
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: 7MYT0eX74jWVNE538D+HJB7inbVyOnQ0ywFCU9YkXSw= #https://ci.appveyor.com/tools/encrypt
+    secure: PipE9d9HMHidRWuHZRkFJII1p3FlZMUraPsYgkXYh8Y= #https://ci.appveyor.com/tools/encrypt
   mail_pass:
-    secure: mb+b7sX6rp6STsKs8abUCA== #https://ci.appveyor.com/tools/encrypt
-  mail_server: smtp-mail.outlook.com
+    secure: iPBQt8Y1CHJz9N5LiJX866T1F8d3TzK1OD28+xYE5dc= #https://ci.appveyor.com/tools/encrypt
+  mail_server: smtp.gmail.com
   mail_port: 465
   mail_enablessl: true
 
@@ -99,7 +99,7 @@ artifacts:
 notifications:
 - provider: Email
   to: $(mail_user)
-  on_build_success: false
+  on_build_success: true
   on_build_failure: true
   on_build_status_changed: true
 
