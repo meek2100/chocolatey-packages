@@ -38,7 +38,7 @@ environment:
   gist_id: d1727a692d06b4b337db230100c9c2f8
 
   # Force test: gist id for test results
-  gist_id_test: 
+  gist_id_test: d1727a692d06b4b337db230100c9c2f8
 
   # Chocolatey API key - to push updated packages
   api_key:
