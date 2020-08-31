@@ -38,7 +38,7 @@ environment:
   gist_id: d1727a692d06b4b337db230100c9c2f8
 
   # Force test: gist id for test results
-  gist_id_test: d2f34087c8b54a3c0f775c216d22d344
+  gist_id_test: 
 
   # Chocolatey API key - to push updated packages
   api_key:
@@ -104,7 +104,7 @@ artifacts:
 notifications:
 - provider: Email
   to: $(mail_user)
-  on_build_success: false
+  on_build_success: true
   on_build_failure: true
   on_build_status_changed: true
 
