@@ -29,4 +29,3 @@ function global:au_GetLatest {
 }
 
 update -NoCheckChocoVersion
-update
