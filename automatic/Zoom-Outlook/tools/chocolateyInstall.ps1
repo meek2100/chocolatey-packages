@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
  
-$checksum = '7812ec892ac5998591a9a3ac26f1fb670a292ba83fbcafaa92bc97e3e9a4bad8'
-$url = 'https://zoom.us/client/5.3.52553.0918/ZoomOutlookPluginSetup.msi'
+$checksum = '079845a466e9d76f63d5d85d211058ecce8a02ae88a91c77e01b87ef9dc18114'
+$url = 'https://zoom.us/client/5.3.52819.0925/ZoomOutlookPluginSetup.msi'
 
 $packageArgs = @{
   packageName    = 'Zoom-Outlook'
