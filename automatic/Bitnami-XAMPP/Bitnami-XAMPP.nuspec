@@ -8,17 +8,17 @@
     <owners>Darin Theurer</owners>
 	<title>XAMPP</title>
 	<authors>Bitnami</authors>
-    <projectUrl>https://bit.ly/3cZX1D3</projectUrl>
+    <projectUrl>https://sourceforge.net/projects/xampp/</projectUrl>
     <copyright>Bitnami</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>xampp bitnami mysql</tags>
 	<description>XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.</description>
     <summary>Apache Server for your Windows.</summary>
     <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/xampp.png</iconUrl>
-    <docsUrl>https://bit.ly/2Seho5N</docsUrl>
+    <docsUrl>https://sourceforge.net/projects/xampp/support</docsUrl>
     <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
-    <bugTrackerUrl>https://bit.ly/3n6LE0x</bugTrackerUrl>
-	<releaseNotes>https://bit.ly/36rOjMm</releaseNotes>
+    <bugTrackerUrl>https://sourceforge.net/projects/xampp/support</bugTrackerUrl>
+	<releaseNotes>https://en.wikipedia.org/wiki/XAMPP</releaseNotes>
 	<dependencies>
 	  <dependency id="kb2919355" version="1.0.20160915" />
 	  <dependency id="vcredist2015" version="14.0.24215.20170201" />
