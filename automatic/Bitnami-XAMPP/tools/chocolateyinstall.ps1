@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$checksum = '9a91dd4f70b504ea4ba398e50fdaa155cf6459f21177162119c5ad635d0cb8ec'
-$url = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.10/xampp-windows-x64-7.4.10-0-VC15-installer.exe'
+$checksum = '81f5bdef90836577fc09880d7aecb837915fcb0ddd45c28ef987959f80387ebb'
+$url = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.11/xampp-windows-x64-7.4.11-0-VC15-installer.exe'
 
 $packageArgs = @{
   packageName    = 'Bitnami-XAMPP'
