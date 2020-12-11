@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = 'd796101afd84774af6aabf87bc32c240182243772afc050703fbc0972f6cf953'
-$url = 'https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-3.1.1-32.msi'
-$checksum64 = 'aed17cc8e8c5d9050de07a613ff909ffaa7e716cf7b9a34479fd42aa8e187fa9'
-$url64 = 'https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-3.1.1-64.msi'
+$checksum = '6ed4dd85ecc191e1e3fd4418430d6bbb52d984dbd5d7438e057d424868e7f59d'
+$url = 'https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-3.1.2-32.msi'
+$checksum64 = '4f3b5730fe6f7161bcdbe1b65be235b7bd2a29e6e2ebbf2f7e8099ff7f3626eb'
+$url64 = 'https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-3.1.2-64.msi'
 
 $packageArgs = @{
   packageName    = 'AirParrot-3'
