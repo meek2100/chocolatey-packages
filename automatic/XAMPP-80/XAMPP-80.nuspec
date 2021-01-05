@@ -20,8 +20,7 @@
     <bugTrackerUrl>https://web.archive.org/web/https://community.apachefriends.org/f/</bugTrackerUrl>
 	<releaseNotes>https://web.archive.org/web/https://www.apachefriends.org/blog.html</releaseNotes>
 	<dependencies>
-	  <dependency id="kb2919355" version="1.0.20160915" />
-	  <dependency id="vcredist2015" version="14.0.24215.20170201" />
+	  <dependency id="vcredist140" version="14.28.29325.2" />
     </dependencies>	
   </metadata>
   <files>
