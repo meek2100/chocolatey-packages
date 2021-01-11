@@ -11,9 +11,21 @@
     <projectUrl>https://web.archive.org/web/https://www.apachefriends.org/index.html</projectUrl>
     <copyright>Bitnami</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>xampp bitnami mysql</tags>
-	<description>XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.</description>
-    <summary>Apache Server for your Windows.</summary>
+    <tags>xampp bitnami mysql php perl</tags>
+	<description>
+		<![CDATA[
+##### XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.  Releases follow PHP updates so there is a sperate chocolatey package for each major PHP version.
+
+*Please use one of the links below to get the correct version for your project.*
+
+* [XAMPP 7.2](https://chocolatey.org/packages/XAMPP-72)
+* [XAMPP 7.3](https://chocolatey.org/packages/XAMPP-73)
+* [XAMPP 7.4](https://chocolatey.org/packages/XAMPP-74)
+* [XAMPP 8.0](https://chocolatey.org/packages/XAMPP-80)
+
+	]]>
+	</description>
+    <summary>Apache Server for Windows.</summary>
     <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/xampp.png</iconUrl>
     <docsUrl>https://web.archive.org/web/https://www.apachefriends.org/community.html</docsUrl>
     <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
