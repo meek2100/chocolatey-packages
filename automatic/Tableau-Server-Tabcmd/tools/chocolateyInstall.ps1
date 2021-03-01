@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '79b7fbcbec7289f2141e933259a9ad87be9ad6298262e9d4d118dce58c0a7a72'
+$checksum = 'aafe11b52b29ea14892f965edd146ab8b01342f08db762e7dd129f681fc2f786'
 $url = 'https://downloads.tableau.com/tssoftware/TableauServerTabcmd-64bit-2020-4-2.exe'
 
 $packageArgs = @{
