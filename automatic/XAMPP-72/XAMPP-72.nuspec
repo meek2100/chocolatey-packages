@@ -14,7 +14,7 @@
     <tags>xampp bitnami mysql php perl</tags>
 	<description>
 		<![CDATA[
-##### XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.  Releases follow PHP updates so there is a sperate chocolatey package for each major PHP version.
+##### XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.  Releases follow PHP updates so there is a separate chocolatey package for each major PHP version.
 
 *Please use one of the links below to get the correct version for your project.*
 
