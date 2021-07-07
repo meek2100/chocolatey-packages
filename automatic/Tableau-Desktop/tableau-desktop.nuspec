@@ -19,7 +19,7 @@ A market-leading choice for modern business intelligence, the Tableau analytics 
 Driven to help people see and understand data, Tableau is designed to put the user first -- whether they’re an analyst, data scientist, student, teacher, executive, or business user. From connection through collaboration, Tableau is the most powerful, secure, and flexible end-to-end analytics platform.
 
 ## Install options
-The Tableau Desktop installer has a lot of optional properties that can be utilized with the `--installarguments` (`--ia`) switch.  [A full list of options can be found here](https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_automate.htm#installer_properties).  Common properties:
+The Tableau Desktop installer has a lot of optional properties that can be utilized with the `--installarguments` (`--ia`) switch.  [A full list of options can be found here](https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_automate.htm#installer-properties).  Common properties:
 
 * `ACTIVATE_KEY="(ProductKey)"` - For machine-based licenses
 * `ACTIVATIONSERVER="(ActivationServer)"` - For login-based licenses
