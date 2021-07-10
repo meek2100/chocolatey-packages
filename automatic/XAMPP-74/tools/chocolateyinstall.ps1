@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$checksum = 'f4bdec2c75b0cd1b58b4c6ba198167ac86d8b541c1f869fccfe19a5b5dc5bc06'
-$url = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.20/xampp-windows-x64-7.4.20-0-VC15-installer.exe'
+$checksum = 'd4d32526599024b2ffc9b5732c9386b7a5b53750cdfbdc934c5b05df1abaa284'
+$url = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.21/xampp-windows-x64-7.4.21-0-VC15-installer.exe'
 
 $packageArgs = @{
   packageName    = 'XAMPP-74'
