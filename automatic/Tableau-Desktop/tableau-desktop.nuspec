@@ -12,11 +12,42 @@
     <copyright>© 2003-2020 Tableau Software, LLC, A Salesforce Company. All Rights Reserved.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>tableau data visualization charts business intelligence</tags>
-    <description>Tableau Desktop is data visualization software that lets you see and understand data in minutes. With other Tableau products, it comprises a complete business intelligence software solution.</description>
+    <description>Tableau Desktop is data visualization software that lets you see and understand data in minutes. With other Tableau products, it comprises a complete business intelligence software solution.
+
+A market-leading choice for modern business intelligence, the Tableau analytics platform makes it easier for people to explore and manage data, and faster to discover and share insights that can change businesses and the world.
+
+Driven to help people see and understand data, Tableau is designed to put the user first -- whether they’re an analyst, data scientist, student, teacher, executive, or business user. From connection through collaboration, Tableau is the most powerful, secure, and flexible end-to-end analytics platform.
+
+## Install options
+The Tableau Desktop installer has a lot of optional properties that can be utilized with the `--installarguments` (`--ia`) switch.  [A full list of options can be found here](https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_automate.htm#installer-properties).  Common properties:
+
+* `ACTIVATE_KEY="(ProductKey)"` - For machine-based licenses
+* `ACTIVATIONSERVER="(ActivationServer)"` - For login-based licenses
+* `AUTOUPDATE=0` - To disable the default setting
+* `SENDTELEMETRY=0` - To disable the default setting
+* `DESKTOPSHORTCUT=0` - To prevent the default action
+* `STARTMENUSHORTCUT=0` - To prevent the default action
+* `REMOVEINSTALLEDAPP=1` - To remove previous versions.  Without this, previous versions and drivers will remain and Chocolatey will be unable to remove them.
+* `DATABASEDRIVERS=0` - To skip the default installation of included ODBC drivers.  These are only required for connecting to their respective database types and are also available independently as Chocolatey packages:
+   * [Microsoft® ODBC Driver for SQL Server](https://community.chocolatey.org/packages/sqlserver-odbcdriver)
+   * [PostgreSQL ODBC Driver](https://community.chocolatey.org/packages/psqlodbc/)
+   * [Amazon Redshift ODBC Driver](https://community.chocolatey.org/packages/redshift-odbc) 
+
+   ([Other Tableau database drivers can be found here.](https://www.tableau.com/support/drivers))
+
+##### Example install
+`choco install tableau-desktop --ia '"DESKTOPSHORTCUT=0 REMOVEINSTALLEDAPP=1"'`
+
+## Uninstall options
+By default, this package will not deactivate any product key during uninstall.  If you want to deactivate the product key, use the `--installarguments` (`--ia`) switch with the `RECLAIMLICENSE=1` option.
+
+##### Example uninstall
+`choco uninstall tableau-desktop --ia '"RECLAIMLICENSE=1"'`
+</description>
     <summary>Tableau Desktop is data visualization software that lets you see and understand data in minutes. With other Tableau products, it comprises a complete business intelligence software solution.</summary>
     <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/tableau.png</iconUrl>
     <docsUrl>https://www.tableau.com/support/desktop</docsUrl>
-    <licenseUrl>https://www.tableau.com/pricing</licenseUrl>
+    <licenseUrl>https://www.tableau.com/eula</licenseUrl>
     <bugTrackerUrl>https://www.tableau.com/support/case</bugTrackerUrl>
 	<releaseNotes>https://www.tableau.com/support/releases</releaseNotes>
 	<dependencies>
