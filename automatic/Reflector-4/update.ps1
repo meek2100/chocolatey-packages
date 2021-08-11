@@ -3,8 +3,8 @@ import-module au
 
 $download_page_url = 'https://www.airsquirrels.com/reflector/release-notes/windows'
 $url_part1 = 'https://download.airsquirrels.com/Reflector4/Windows/Reflector-'
-$url32_part2 = '.0-32.msi'
-$url64_part2 = '.0-64.msi'
+$url32_part2 = '-32.msi'
+$url64_part2 = '-64.msi'
 
 function global:au_SearchReplace {
     @{
