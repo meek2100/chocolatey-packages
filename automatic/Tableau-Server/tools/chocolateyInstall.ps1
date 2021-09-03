@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '66c886defdd61834b264fd5a5757dbb2cb7d7ec308009b3ccb4f909422691cfc'
-$url = 'https://downloads.tableau.com/tssoftware/TableauServer-64bit-2021-2-1.exe'
+$checksum = '86d46ebebdb4bfca19152fc9c8e34d419d4e128e735e5bd9919653ae69005e8b'
+$url = 'https://downloads.tableau.com/tssoftware/TableauServer-64bit-2021-2-2.exe'
 
 $packageArgs = @{
   packageName    = 'Tableau-Server'
