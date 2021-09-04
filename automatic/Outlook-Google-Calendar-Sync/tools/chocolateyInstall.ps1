@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '032226eba234f2cdc4c538184f3620effe824c01ff68ab961ad75cca79848547'
+$checksum = '61B307AE745134CC5772B8E8277454199FFFF0520A0856742ADBF4BCBC70F8DE'
 $url = 'https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/v2.9.0-beta/Setup.exe'
 
 $packageArgs = @{
