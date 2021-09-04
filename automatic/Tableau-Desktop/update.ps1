@@ -8,8 +8,8 @@ $url_part2 = '.exe'
 function global:au_SearchReplace {
     @{
         'tools\ChocolateyInstall.ps1' = @{
-            "(^[$]checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
-            "(^[$]url64bit\s*=\s*)('.*')"   = "`$1'$($Latest.Url64)'"
+            "(^[$]checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
+            "(^[$]url\s*=\s*)('.*')"   = "`$1'$($Latest.Url)'"
         }
      }
 }
@@ -29,7 +29,7 @@ function global:au_GetLatest {
 	$url = $url_part1 + $url_version + $url_part2
     
 
-    $Latest = @{ URL64 = $url; Version = $version }
+    $Latest = @{ URL = $url; Version = $version }
     return $Latest
 }
 

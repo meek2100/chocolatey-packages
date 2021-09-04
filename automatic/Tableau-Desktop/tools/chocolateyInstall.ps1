@@ -6,11 +6,11 @@ $packageArgs = @{
   packageName    = 'Tableau-Desktop'
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType       = 'exe'
-  url64bit       = $url
+  url            = $url
   silentArgs     = "/quiet /norestart /LOG `"$($env:TEMP)\Tableau-$($env:chocolateyPackageVersion)-Install.log`" ACCEPTEULA=1"
   validExitCodes = @(0,3010)
   softwareName   = 'Tableau*'
-  checksum64     = $checksum
+  checksum       = $checksum
   checksumType   = 'sha256'
 }
 
