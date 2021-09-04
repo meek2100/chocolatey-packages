@@ -8,8 +8,8 @@ $url_part2 = '.exe'
 function global:au_SearchReplace {
     @{
         'tools\ChocolateyInstall.ps1' = @{
-            "(^[$]checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
-            "(^[$]url64bit\s*=\s*)('.*')"   = "`$1'$($Latest.Url64)'"
+			"(^[$]checksum64\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum64)'"
+			"(^[$]url64\s*=\s*)('.*')"   = "`$1'$($Latest.Url64)'"
         }
      }
 }
