@@ -3,13 +3,13 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Outlook-Google-Calendar-Sync</id>
-    <version>2.9.0</version>
+    <version>2.9.0.20210904</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
     <owners>Darin Theurer</owners>
     <title>Outlook Google Calendar Sync</title>
     <authors>Paul Woolcock</authors>
     <projectUrl>https://phw198.github.io/OutlookGoogleCalendarSync/</projectUrl>
-    <copyright>© Copyright 2020 Paul Woolcock</copyright>
+    <copyright>© Copyright 2021 Paul Woolcock</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>Outlook Google Calendar Sync 2-way Two-way Bidirection</tags>
     <description>Outlook Google Calendar Sync offers calendar synchronisation between Outlook and Google, including attendees and reminders.</description>
