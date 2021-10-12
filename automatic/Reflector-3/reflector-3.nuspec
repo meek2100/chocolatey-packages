@@ -20,7 +20,7 @@
     <bugTrackerUrl>https://help.reflectorapp.com/</bugTrackerUrl>
 	<releaseNotes>https://www.airsquirrels.com/reflector/release-notes/windows</releaseNotes>
 	<dependencies>
-      <dependency id="dotnetfx" version="4.7.2.20180712" />
+      <dependency id="dotnetfx" version="4.8.0.20190930" />
     </dependencies>
   </metadata>
   <files>
