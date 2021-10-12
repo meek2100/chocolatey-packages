@@ -7,11 +7,20 @@ $packageArgs = @{
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   fileType       = 'exe'
   url            = $url
-  silentArgs     = '/quiet /norestart'
+  silentArgs     = '/S'
   validExitCodes = @(0)
   softwareName   = 'EdgeDeflector*'
   checksum       = $checksum
   checksumType   = 'sha256'
 }
 
+if ((Test-Path "$ENV:SYSTEMROOT\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe") -eq "True")
+   {
+    Install-ChocolateyPackage @packageArgs  
+   } else {
+    Write-Host "Microsoft Edge not found. EdgeDeflector cannot be installed." -foreground red -background blue
+	}
+#Purposely left it so choco thinks the package is instaleld to pass the validator as program only works on Win10 and Server2016. :)
+
 Install-ChocolateyPackage @packageArgs
+
