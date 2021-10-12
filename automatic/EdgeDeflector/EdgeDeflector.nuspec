@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>EdgeDeflector</id>
+    <version>1.2.3.0</version>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <owners>Darin Theurer</owners>
+    <title>EdgeDeflector</title>
+    <authors>Daniel Aleksandersen</authors>
+    <projectUrl>https://github.com/da2x/EdgeDeflector/</projectUrl>
+    <copyright>© Copyright 2021 Daniel Aleksandersen</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>EdgeDeflector Browser Redirect Windows</tags>
+    <description>EdgeDeflector is a small helper application that intercepts URIs that force-open web links in Microsoft Edge and redirects it to the system’s default web browser. This allows you to use Windows features like the Cortana assistant and built-in help links with the browser of your choice instead of being forced to use Microsoft Edge. With EdgeDeflector, you’re free to use Firefox, Google Chrome, or whatever your favorite web browser might be!</description>
+    <summary>EdgeDeflector is a small helper application that intercepts URIs that force-open web links in Microsoft Edge and redirects it to the system’s default web browser. This allows you to use Windows features like the Cortana assistant and built-in help links with the browser of your choice instead of being forced to use Microsoft Edge. With EdgeDeflector, you’re free to use Firefox, Google Chrome, or whatever your favorite web browser might be!</summary>
+    <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/edge-deflector.png</iconUrl>
+    <docsUrl>https://www.ctrl.blog/entry/edgedeflector-default-browser.html</docsUrl>
+    <licenseUrl>https://github.com/da2x/EdgeDeflector/blob/master/LICENSE</licenseUrl>
+    <bugTrackerUrl>https://github.com/da2x/EdgeDeflector/issues</bugTrackerUrl>
+	<releaseNotes>https://github.com/da2x/EdgeDeflector/releases</releaseNotes>
+	<dependencies>
+      <dependency id="dotnetfx" version="4.8.0.20190930" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
