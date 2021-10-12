@@ -51,7 +51,7 @@ By default, this package will not deactivate any product key during uninstall.  
     <bugTrackerUrl>https://www.tableau.com/support/case</bugTrackerUrl>
 	<releaseNotes>https://www.tableau.com/support/releases</releaseNotes>
 	<dependencies>
-      <dependency id="dotnetfx" version="4.7.2.20180712" />
+      <dependency id="dotnetfx" version="4.8.0.20190930" />
     </dependencies>
   </metadata>
   <files>
