@@ -19,6 +19,7 @@ function global:au_GetLatest {
 
      # Get Version
     $homepage_content -match 'v\d+\.\d+\.\d+.\d+'| Out-Null
+	$version = $matches[0] -replace "v", ""
     $url_version = $matches[0] 
     $url = $url_part1 + $url_version + $url_part2
     
