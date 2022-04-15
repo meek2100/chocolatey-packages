@@ -17,7 +17,7 @@
     <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/reflector4.png</iconUrl>
     <docsUrl>https://help.reflectorapp.com</docsUrl>
     <licenseUrl>https://www.airsquirrels.com/reflector/try</licenseUrl>
-    <bugTrackerUrl>https://help.reflectorapp.com/</bugTrackerUrl>
+    <bugTrackerUrl>https://help.reflectorapp.com/#contactModal</bugTrackerUrl>
 	<releaseNotes>https://www.airsquirrels.com/reflector/release-notes/windows</releaseNotes>
 	<dependencies>
       <dependency id="dotnetfx" version="4.8.0.20190930" />
