@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Bitnami-XAMPP</id>
-    <version>7.4.13.20210106</version>
+    <version>7.4.13.20210106.20220415</version>
 	<packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
     <owners>Darin Theurer</owners>
 	<title>[Deprecated] XAMPP</title>
@@ -22,6 +22,7 @@
 * [XAMPP 7.3](https://chocolatey.org/packages/XAMPP-73)
 * [XAMPP 7.4](https://chocolatey.org/packages/XAMPP-74)
 * [XAMPP 8.0](https://chocolatey.org/packages/XAMPP-80)
+* [XAMPP 8.1](https://chocolatey.org/packages/XAMPP-81)
 
 	]]>
 	</description>
