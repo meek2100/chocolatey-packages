@@ -4,7 +4,7 @@
   <metadata>
     <id>Tableau-Desktop</id>
     <version>2022.1.0</version>
-    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Tableau-Desktop</packageSourceUrl>
     <owners>meek2100</owners>
     <title>Tableau Desktop</title>
     <authors>Tableau Software, LLC.</authors>

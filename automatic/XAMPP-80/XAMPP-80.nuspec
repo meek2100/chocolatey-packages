@@ -4,7 +4,7 @@
   <metadata>
     <id>XAMPP-80</id>
     <version>8.0.17</version>
-	<packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+	<packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/XAMPP-80</packageSourceUrl>
     <owners>meek2100</owners>
 	<title>XAMPP 8.0</title>
 	<authors>Bitnami</authors>

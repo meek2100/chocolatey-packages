@@ -4,7 +4,7 @@
   <metadata>
     <id>AirParrot-3</id>
     <version>3.1.6</version>
-    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/AirParrot-3</packageSourceUrl>
     <owners>meek2100</owners>
     <title>AirParrot 3</title>
     <authors>Squirrels, LLC.</authors>

@@ -4,7 +4,7 @@
   <metadata>
     <id>Zoom-Outlook</id>
     <version>5.10.0.30</version>
-    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Zoom-Outlook</packageSourceUrl>
     <owners>meek2100</owners>
     <title>Zoom Plugin for Microsoft Outlook</title>
     <authors>Zoom Video Communications, Inc.</authors>

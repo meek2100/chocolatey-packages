@@ -4,7 +4,7 @@
   <metadata>
     <id>Outlook-Google-Calendar-Sync</id>
     <version>2.9.0.20210904</version>
-    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Outlook-Google-Calendar-Sync</packageSourceUrl>
     <owners>meek2100,phw198</owners>
     <title>Outlook Google Calendar Sync</title>
     <authors>Paul Woolcock</authors>

@@ -4,7 +4,7 @@
   <metadata>
     <id>Tableau-Prep-Builder</id>
     <version>2022.1.1</version>
-    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Tableau-Prep-Builder</packageSourceUrl>
     <owners>meek2100</owners>
     <title>Tableau Prep Builder</title>
     <authors>Tableau Software, LLC.</authors>

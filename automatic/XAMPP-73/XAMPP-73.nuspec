@@ -4,7 +4,7 @@
   <metadata>
     <id>XAMPP-73</id>
     <version>7.3.33</version>
-	<packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+	<packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/XAMPP-73</packageSourceUrl>
     <owners>meek2100</owners>
 	<title>XAMPP 7.3</title>
 	<authors>Bitnami</authors>

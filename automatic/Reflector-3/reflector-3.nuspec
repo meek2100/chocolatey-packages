@@ -4,7 +4,7 @@
   <metadata>
     <id>Reflector-3</id>
     <version>3.2.0</version>
-    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Reflector-3</packageSourceUrl>
     <owners>meek2100</owners>
     <title>Reflector 3</title>
     <authors>Squirrels, LLC.</authors>
