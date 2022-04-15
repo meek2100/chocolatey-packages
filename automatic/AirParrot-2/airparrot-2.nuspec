@@ -5,7 +5,7 @@
     <id>AirParrot-2</id>
     <version>2.7.5</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
-    <owners>Darin Theurer</owners>
+    <owners>meek2100</owners>
     <title>AirParrot 2</title>
     <authors>Squirrels, LLC.</authors>
     <projectUrl>https://www.airsquirrels.com/</projectUrl>

@@ -5,7 +5,7 @@
     <id>XAMPP-81</id>
     <version>8.1.4</version>
 	<packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
-    <owners>Darin Theurer</owners>
+    <owners>meek2100</owners>
 	<title>XAMPP 8.1</title>
 	<authors>Bitnami</authors>
     <projectUrl>https://web.archive.org/web/https://www.apachefriends.org/index.html</projectUrl>

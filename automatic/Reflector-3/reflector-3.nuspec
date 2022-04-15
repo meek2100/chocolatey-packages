@@ -5,7 +5,7 @@
     <id>Reflector-3</id>
     <version>3.2.0</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages</packageSourceUrl>
-    <owners>Darin Theurer</owners>
+    <owners>meek2100</owners>
     <title>Reflector 3</title>
     <authors>Squirrels, LLC.</authors>
     <projectUrl>https://www.airsquirrels.com/</projectUrl>
