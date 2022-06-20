@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Zoom-Outlook</id>
-    <version>5.10.3.40</version>
+    <version>5.11.0.53</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Zoom-Outlook</packageSourceUrl>
     <owners>meek2100</owners>
     <title>Zoom Plugin for Microsoft Outlook</title>
