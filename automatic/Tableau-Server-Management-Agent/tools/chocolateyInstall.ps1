@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '415e0f394af82fa0e3f9521cccaf3f086859fc8c7e49e8fe0ddb6ded553bcc0a'
-$url = 'https://downloads.tableau.com/tssoftware/Tabrmt-Agent-64bit-2022-1-1.exe'
+$checksum = '6a892e376b543d11d5a0655cc4045f30e7c8df25c81d5f7115ebe9d470114ce0'
+$url = 'https://downloads.tableau.com/tssoftware/Tabrmt-Agent-64bit-2022-1-3.exe'
 
 $packageArgs = @{
   packageName    = 'Tableau-Server-Management-Agent'
