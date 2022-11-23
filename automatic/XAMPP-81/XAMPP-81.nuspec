@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>XAMPP-81</id>
-    <version>8.1.10</version>
+    <version>8.1.12</version>
 	<packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/XAMPP-81</packageSourceUrl>
     <owners>meek2100</owners>
 	<title>XAMPP 8.1</title>
