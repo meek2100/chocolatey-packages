@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
-$download_page_url = 'https://stealthpuppy.com/apptracker/name/#zoom'
+$download_page_url = 'https://zoom.us/rest/download?os=win'
 $url_part1 = 'https://zoom.us/client/'
 $url_part2 = '/ZoomOutlookPluginSetup.msi'
 
@@ -15,11 +15,11 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url
-
-     # Get Version
-    $homepage_content -match '\d+\.\d+\.\d+\.\d{3}/ZoomOutlookPluginSetup.msi'| Out-Null
-    $version = $matches[0] -replace "/ZoomOutlookPluginSetup.msi", ""
+    $response = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url
+	$payload = ConvertFrom-Json $response
+	
+     # Get Version	
+	$version = $payload.result.downloadVO.outlookPlugin.version
     $url = $url_part1 + $version + $url_part2
     
 
