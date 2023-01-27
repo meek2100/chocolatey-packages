@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '3423d746a772df5a8d26504ff7949f1b34c670b748dead7a9761f439cecddf31'
-$url = 'https://downloads.tableau.com/tssoftware/TableauPrep-2022-4-0.exe'
+$checksum = '881220ee6fab65385acebca544a03dcb92795553cfb31c15bef9627a46f677d9'
+$url = 'https://downloads.tableau.com/tssoftware/TableauPrep-2022-4-1.exe'
 
 $packageArgs = @{
   packageName    = 'Tableau-Prep-Builder'
