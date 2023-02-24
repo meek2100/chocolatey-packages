@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Tableau-Desktop</id>
-    <version>2022.4.0</version>
+    <version>2022.4.1</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Tableau-Desktop</packageSourceUrl>
     <owners>meek2100</owners>
     <title>Tableau Desktop</title>

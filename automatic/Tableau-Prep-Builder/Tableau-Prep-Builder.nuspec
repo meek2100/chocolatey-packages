@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Tableau-Prep-Builder</id>
-    <version>2022.4.1</version>
+    <version>2022.4.2</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Tableau-Prep-Builder</packageSourceUrl>
     <owners>meek2100</owners>
     <title>Tableau Prep Builder</title>
