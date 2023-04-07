@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$checksum = '06a8bfda66dbe546ecb6ac3afac13a07263f6cb6abbb1d278c994b127e38a4c8'
-$url = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.0/xampp-windows-x64-8.2.0-0-VS16-installer.exe'
+$checksum = '6f3e20916627060365a90dfd361ea42bffcda0cf5890e937217c4c3fcb9f0ed0'
+$url = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.4/xampp-windows-x64-8.2.4-0-VS16-installer.exe'
 
 $packageArgs = @{
   packageName    = 'XAMPP-82'
