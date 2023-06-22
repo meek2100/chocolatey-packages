@@ -3,7 +3,7 @@ import-module au
 
 $download_page_url = 'https://github.com/phw198/OutlookGoogleCalendarSync/releases'
 $url_part1 = 'https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/'
-$url_part2 = '/Setup.exe'
+$url_part2 = '/OGCS_Setup.exe'
 
 function global:au_SearchReplace {
     @{
