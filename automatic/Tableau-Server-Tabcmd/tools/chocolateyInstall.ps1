@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = 'dcd4809997c62fbb3bc4a493182162bdbcc828c2564a08e9b8a8516c5b257fe1'
-$url = 'https://downloads.tableau.com/tssoftware/TableauServerTabcmd-64bit-2023-1-3.exe'
+$checksum = 'c9b7378a6868aba70aebd8c7ed38ccb7af276f7869f66fec3bc83fe980a87df4'
+$url = 'https://downloads.tableau.com/tssoftware/TableauServerTabcmd-64bit-2023-1-4.exe'
 
 $packageArgs = @{
   packageName    = 'Tableau-Server-Tabcmd'
