@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = 'bfa5b68b910e4e818964ceecc5ece40687986a0416eb167b60b0a324b7950fd4'
-$url = 'https://downloads.tableau.com/tssoftware/TableauDesktop-64bit-2023-2-0.exe'
+$checksum = 'b927acfab22b58e4e190e049720d3b559602bd33a89e1e7cec5ab62466f3cd55'
+$url = 'https://downloads.tableau.com/tssoftware/TableauDesktop-64bit-2023-2-1.exe'
 
 $packageArgs = @{
   packageName    = 'Tableau-Desktop'
