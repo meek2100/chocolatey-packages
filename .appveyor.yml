@@ -50,9 +50,9 @@ init:
 - git config --global core.safecrlf false
 
 install:
-- ps: '[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13'
 - ps: 'Get-CimInstance win32_operatingsystem -Property Caption, OSArchitecture, Version | fl Caption, OSArchitecture, Version'
 - ps: $PSVersionTable
+- ps: 'Get-TlsCipherSuite'
 - git --version
 - choco --version
 - ps: |
