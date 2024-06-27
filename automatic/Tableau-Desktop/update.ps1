@@ -1,3 +1,6 @@
+# Ensure TLS 1.2 or 1.3 is used
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13
+
 $ErrorActionPreference = 'Stop'
 Import-Module au
 
@@ -11,9 +14,6 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    # Ensure TLS 1.2 or 1.3 is used
-    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13
-
     # Load necessary assembly
     Add-Type -AssemblyName "System.Net.Http"
 
