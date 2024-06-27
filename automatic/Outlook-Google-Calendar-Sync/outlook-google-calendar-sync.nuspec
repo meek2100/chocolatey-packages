@@ -14,7 +14,7 @@
     <tags>Outlook Google Calendar Sync 2-way Two-way Bidirection</tags>
     <description>Outlook Google Calendar Sync offers calendar synchronisation between Outlook and Google, including attendees and reminders.</description>
     <summary>Outlook Google Calendar Sync offers calendar synchronisation between Outlook and Google, including attendees and reminders.</summary>
-    <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/outlook-google-calendar-sync.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/meek2100/chocolatey-packages/master/icons/outlook-google-calendar-sync.png</iconUrl>
     <docsUrl>https://phw198.github.io/OutlookGoogleCalendarSync/guide/index.html</docsUrl>
     <licenseUrl>https://github.com/phw198/OutlookGoogleCalendarSync/blob/master/license.md</licenseUrl>
     <bugTrackerUrl>https://github.com/phw198/OutlookGoogleCalendarSync/wiki/Reporting-Problems</bugTrackerUrl>
