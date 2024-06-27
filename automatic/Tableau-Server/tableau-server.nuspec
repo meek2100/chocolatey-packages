@@ -14,7 +14,7 @@
     <tags>tableau data visualization charts business intelligence</tags>
     <description>Tableau Server is data visualization software that lets you see and understand data in minutes. With other Tableau products, it comprises a complete business intelligence software solution.</description>
     <summary>Tableau Server is data visualization software that lets you see and understand data in minutes. With other Tableau products, it comprises a complete business intelligence software solution.</summary>
-    <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/tableau.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/meek2100/chocolatey-packages/master/icons/tableau.png</iconUrl>
     <docsUrl>https://www.tableau.com/support/server</docsUrl>
     <licenseUrl>https://www.tableau.com/pricing</licenseUrl>
     <bugTrackerUrl>https://www.tableau.com/support/case</bugTrackerUrl>
