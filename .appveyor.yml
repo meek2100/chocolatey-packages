@@ -50,15 +50,15 @@ init:
 - git config --global core.safecrlf false
 
 install:
-- ps: 'Get-CimInstance win32_operatingsystem -Property Caption, OSArchitecture, Version | fl Caption, OSArchitecture, Version'
-- ps: $PSVersionTable
+- pwsh: 'Get-CimInstance win32_operatingsystem -Property Caption, OSArchitecture, Version | fl Caption, OSArchitecture, Version'
+- pwsh: $PSVersionTable
 - git --version
 - choco --version
-- ps: |
+- pwsh: |
     git clone -q https://github.com/majkinetor/au.git $Env:TEMP/au
     . "$Env:TEMP/au/scripts/Install-AU.ps1" $Env:au_version
 
-- ps: |
+- pwsh: |
     "Build info"
     '  {0,-20} {1}' -f 'SCHEDULED BUILD:', ($Env:APPVEYOR_SCHEDULED_BUILD -eq 'true')
     '  {0,-20} {1}' -f 'FORCED BUILD:'   , ($Env:APPVEYOR_FORCED_BUILD    -eq 'true')
@@ -66,7 +66,7 @@ install:
 # Uncomment the below line if you are using any of the functions from chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension. Ensure you also have it listed in your package's dependencies
 # - cinst chocolatey-core.extension
 build_script:
-- ps: |
+- pwsh: |
     $ErrorActionPreference = 'Continue'
 
     if ($Env:APPVEYOR_PROJECT_NAME  -like '*test*') { ./test_all.ps1 "random $Env:au_test_groups"; return }
