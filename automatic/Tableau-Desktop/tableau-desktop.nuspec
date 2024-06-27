@@ -45,7 +45,7 @@ By default, this package will not deactivate any product key during uninstall.  
 `choco uninstall tableau-desktop --ia '"RECLAIMLICENSE=1"'`
 </description>
     <summary>Tableau Desktop is data visualization software that lets you see and understand data in minutes. With other Tableau products, it comprises a complete business intelligence software solution.</summary>
-    <iconUrl>https://cdn.staticaly.com/gh/meek2100/chocolatey-packages/master/icons/tableau.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/meek2100/chocolatey-packages/master/icons/tableau.png</iconUrl>
     <docsUrl>https://www.tableau.com/support/desktop</docsUrl>
     <licenseUrl>https://www.tableau.com/eula</licenseUrl>
     <bugTrackerUrl>https://www.tableau.com/support/case</bugTrackerUrl>
