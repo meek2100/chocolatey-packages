@@ -3,7 +3,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>Outlook-Google-Calendar-Sync</id>
-    <version>2.10.0</version>
+    <version>2.11.0</version>
     <packageSourceUrl>https://github.com/meek2100/chocolatey-packages/tree/master/automatic/Outlook-Google-Calendar-Sync</packageSourceUrl>
     <owners>meek2100,phw198</owners>
     <title>Outlook Google Calendar Sync</title>

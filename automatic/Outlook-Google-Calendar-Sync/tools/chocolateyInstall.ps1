@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '25c286906424f7a5badcd1b4808dff9b2e37e29799b91d1c59223c6b20fcda5a'
-$url = 'https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/v2.10.0-beta/OGCS_Setup.exe'
+$checksum = '81131729d531f1ba42c2673f83d495b39e3a32ad025d73081b8d6d09a6009124'
+$url = 'https://github.com/phw198/OutlookGoogleCalendarSync/releases/download/v2.11.0-beta/OGCS_Setup.exe'
 
 $packageArgs = @{
   packageName    = 'outlook-google-calendar-sync'
