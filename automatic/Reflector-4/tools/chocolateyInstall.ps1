@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
-$checksum = '7d92caa550d674ee29bf1a7e75bd9e27da5e6053474fcd3e62bdb8e25be12d04'
-$url = 'https://download.airsquirrels.com/Reflector4/Windows/Reflector-4.1.1-32.msi'
-$checksum64 = '2f4b9df7617c9a31ea2ed16833ee662c04a873f726b93896cae8a29b6ceb05c8'
-$url64 = 'https://download.airsquirrels.com/Reflector4/Windows/Reflector-4.1.1-64.msi'
+$checksum = 'e200851d60c3a2042bb3543cfd0cfefd7acdeac43aec184a2837af6de1ad59e8'
+$url = 'https://download.airsquirrels.com/Reflector4/Windows/Reflector-4.1.2-32.msi'
+$checksum64 = 'b5c790b33413733e34d35c6e5b45c61a1c6d268db77de93273ecd6d0dc0d83d0'
+$url64 = 'https://download.airsquirrels.com/Reflector4/Windows/Reflector-4.1.2-64.msi'
 
 $packageArgs = @{
   packageName    = 'Reflector-4'
