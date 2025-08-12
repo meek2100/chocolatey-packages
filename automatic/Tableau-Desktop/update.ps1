@@ -14,39 +14,11 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    # Load necessary assembly
-    Add-Type -AssemblyName "System.Net.Http"
-
     $download_page_url = 'https://www.tableau.com/support/releases'
     $url_part1 = 'https://downloads.tableau.com/tssoftware/TableauDesktop-64bit-'
     $url_part2 = '.exe'
-
-    # Create HttpClientHandler to manage cookies
-    $handler = [System.Net.Http.HttpClientHandler]::new()
-    $handler.CookieContainer = [System.Net.CookieContainer]::new()
-
-    # Create HttpClient instance with the handler
-    $httpClient = [System.Net.Http.HttpClient]::new($handler)
-    $httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-    $httpClient.DefaultRequestHeaders.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
-    $httpClient.DefaultRequestHeaders.Add("Accept-Language", "en-US,en;q=0.5")
-    $httpClient.DefaultRequestHeaders.Add("Referer", "https://www.tableau.com/")
-    $httpClient.DefaultRequestHeaders.Add("Connection", "keep-alive")
-    $httpClient.DefaultRequestHeaders.Add("DNT", "1")
-
-    # Add initial cookies (if needed)
-    $cookie = [System.Net.Cookie]::new("test", "value", "/", "tableau.com")
-    $handler.CookieContainer.Add($cookie)
-
-    # Download the webpage content
-    try {
-        $response = $httpClient.GetAsync($download_page_url).Result
-        $response.EnsureSuccessStatusCode()
-        $homepage_content = $response.Content.ReadAsStringAsync().Result
-    } catch {
-        Write-Error "Failed to download the page: $_"
-        exit
-    }
+    
+    $homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url -UserAgent "curl/8.9.1" 
 
     # Get Version
     if ($homepage_content -match '\/(\d{4}\.\d{0,2}[.0-9]{0,2})') {
