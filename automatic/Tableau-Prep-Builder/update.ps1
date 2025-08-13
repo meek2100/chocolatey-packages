@@ -1,9 +1,8 @@
+# Ensure TLS 1.2 or 1.3 is used
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13
+
 $ErrorActionPreference = 'Stop'
 import-module chocolatey-au
-
-$download_page_url = 'https://www.tableau.com/support/releases/prep'
-$url_part1 = 'https://downloads.tableau.com/tssoftware/TableauPrep-'
-$url_part2 = '.exe'
 
 function global:au_SearchReplace {
     @{
@@ -15,7 +14,11 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url
+    $download_page_url = 'https://www.tableau.com/support/releases/prep'
+    $url_part1 = 'https://downloads.tableau.com/tssoftware/TableauPrep-'
+    $url_part2 = '.exe'
+
+   $homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url -UserAgent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
 
      # Get Version
     $homepage_content -match '\/\d{4}\.\d{0,2}[.0-9]{0,2}'| Out-Null

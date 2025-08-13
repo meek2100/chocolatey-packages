@@ -18,7 +18,7 @@ function global:au_GetLatest {
     $url_part1 = 'https://downloads.tableau.com/tssoftware/TableauDesktop-64bit-'
     $url_part2 = '.exe'
     
-    $homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url -UserAgent "curl/8.9.1" 
+    $homepage_content = Invoke-WebRequest -UseBasicParsing -Uri $download_page_url -UserAgent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" 
 
     # Get Version
     if ($homepage_content -match '\/(\d{4}\.\d{0,2}[.0-9]{0,2})') {
