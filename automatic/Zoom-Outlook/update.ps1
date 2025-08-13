@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-import-module au
+import-module chocolatey-au
 
 $download_page_url = 'https://zoom.us/rest/download?os=win'
 $url_part1 = 'https://zoom.us/client/'

@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-import-module au
+import-module chocolatey-au
 
 $download_page_url = 'https://www.tableau.com/support/releases/server'
 $url_part1 = 'https://downloads.tableau.com/tssoftware/TableauServer-64bit-'

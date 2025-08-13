@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-import-module au
+import-module chocolatey-au
 
 $download_page_url = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/'
 $url_part1 = 'https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/'

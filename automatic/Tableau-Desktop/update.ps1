@@ -2,7 +2,7 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13
 
 $ErrorActionPreference = 'Stop'
-Import-Module au
+import-module chocolatey-au
 
 function global:au_SearchReplace {
     @{

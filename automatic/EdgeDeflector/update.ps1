@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-import-module au
+import-module chocolatey-au
 
 $download_page_url = 'https://github.com/da2x/EdgeDeflector/releases'
 $url_part1 = 'https://github.com/da2x/EdgeDeflector/releases/download/'

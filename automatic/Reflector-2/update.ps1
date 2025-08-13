@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-import-module au
+import-module chocolatey-au
 
 $download_page_url = 'https://www.airsquirrels.com/reflector/release-notes/windows'
 $url_part1 = 'https://download.airsquirrels.com/Reflector2/Windows/Reflector-'
