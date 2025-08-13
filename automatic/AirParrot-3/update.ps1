@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
-import-module au
+import-module chocolatey-au
 
 $download_page_url = 'https://www.airsquirrels.com/airparrot/release-notes/win'
 $url_part1 = 'https://download.airsquirrels.com/AirParrot3/Windows/AirParrot-'
